@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn{
+    color: purple;
+    background-color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
+
+.notifications{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.notifications > div{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.notifications > div.success{
+    color: green;
+}
+.notifications > div.error{
+    color: red;
+}
+.notifications > div.invalid{
+    color: purple;
+}
+
