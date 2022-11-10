@@ -90,7 +90,6 @@ nav ul a{
 
 nav.active .icon .line1{
     transform: rotate(-765deg) translateY(5.5px);
-    color: red;
 }
 
 nav.active .icon .line2{
